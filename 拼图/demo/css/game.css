@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../img/66.jpg);
+	color: white;
+	text-align: center;
+}
+#img{
+	position: absolute;
+	left: 1000px;
+	top:150px;
+}
+#img img{
+	width: 200px;
+	height: 200px;
+}
+#show-font,#photo,#star,#pintu{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+#show-font{
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	line-height: 50px;
+}
+#photo{
+	position: relative;
+	width: 350px;
+	height: 355px;
+	/*background: yellow;*/
+	
+}
+#star{
+	background-color: white;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	border-radius:20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.photot{
+	background: url(../img/3.jpg) no-repeat;
+    background-size: 340px 340px;
+    position: absolute;
+    border: solid 1px black;
+    width: 85px;
+    height: 85px;
+}
+.position_1, .position_2, .position_3, .position_4 {
+    top: 0px;
+}
+
+.position_5, .position_6, .position_7, .position_8 {
+    top: 85px;
+}
+
+.position_9, .position_10, .position_11, .position_12 {
+    top: 170px;
+}
+
+.position_13, .position_14, .position_15, .position_16 {
+    top: 255px;
+}
+
+.position_1, .position_5, .position_9, .position_13 {
+    left: 0px;
+}
+
+.position_2, .position_6, .position_10, .position_14 {
+    left: 85px;
+}
+
+.position_3, .position_7, .position_11, .position_15 {
+    left: 170px;
+}
+
+.position_4, .position_8, .position_12, .position_16 {
+    left: 255px;
+}
+
+/* id position_x 代表每一个分块 */
+#position_1 {
+    background-position: 0px 0px;
+}
+
+#position_2 {
+    background-position: -85px 0px;
+}
+
+#position_3 {
+    background-position: -169px 0px;
+}
+
+#position_4 {
+    background-position: -253px 0px;
+}
+
+#position_5 {
+    background-position: 0px -84px;
+}
+
+#position_6 {
+    background-position: -85px -84px;
+}
+
+#position_7 {
+    background-position: -169px -84px;
+}
+
+#position_8 {
+    background-position: -253px -84px;  
+}
+
+#position_9 {
+    background-position: 0px -168px;
+}
+
+#position_10 {
+    background-position: -85px -168px;
+}
+
+#position_11 {
+    background-position: -169px -168px; 
+}
+
+#position_12 {
+    background-position: -253px -168px;
+}
+
+#position_13 {
+    background-position: 0px -252px;
+}
+
+#position_14 {
+    background-position: -85px -252px;
+}
+
+#position_15 {
+    background-position: -169px -252px; 
+}
+
+#position_16 {
+    opacity: 0;
+    background-position: -253px -252px;
+    background-image: none;
+}
